@@ -5,7 +5,7 @@ interactions. It simulates the condensational growth of an arbitrary aerosol pop
 a parcel rises adiabatically, predicting the peak supersaturation and the number of
 droplets activated at cloud base.
 
-[![DOI](https://zenodo.org/badge/12927551.svg)](https://zenodo.org/badge/latestdoi/12927551)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20870343.svg)](https://zenodo.org/badge/latestdoi/12927551)
 [![PyPI](https://badge.fury.io/py/pyrcel.svg)](https://badge.fury.io/py/pyrcel)
 [![CI](https://github.com/darothen/pyrcel/actions/workflows/ci.yml/badge.svg)](https://github.com/darothen/pyrcel/actions/workflows/ci.yml)
 [![Documentation Status](https://readthedocs.org/projects/pyrcel/badge/?version=stable)](https://pyrcel.readthedocs.io/en/stable/)
