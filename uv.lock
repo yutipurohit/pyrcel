@@ -1550,11 +1550,13 @@ docs = [
     { name = "mkdocs-material" },
     { name = "mkdocstrings", extra = ["python"] },
     { name = "optimistix" },
+    { name = "pillow" },
     { name = "pymdown-extensions" },
     { name = "ruff" },
 ]
 examples = [
     { name = "matplotlib" },
+    { name = "pillow" },
 ]
 gpu = [
     { name = "diffrax" },
@@ -1592,6 +1594,8 @@ requires-dist = [
     { name = "optimistix", marker = "extra == 'docs'", specifier = ">=0.0.7" },
     { name = "optimistix", marker = "extra == 'gpu'", specifier = ">=0.0.7" },
     { name = "pandas" },
+    { name = "pillow", marker = "extra == 'docs'", specifier = ">=12.3.0" },
+    { name = "pillow", marker = "extra == 'examples'", specifier = ">=12.3.0" },
     { name = "polars" },
     { name = "pymdown-extensions", marker = "extra == 'docs'", specifier = ">=10.7" },
     { name = "pyrefly", marker = "extra == 'test'", specifier = ">=1.1" },
