@@ -2,7 +2,7 @@ pyrcel: cloud parcel model
 ==========================
 ## 2026 Fork: Surface-Tension-Dependent Aerosol Activation
 
-This fork extends `pyrcel` by adding a way to modify the surface tension of the aerosols and include it in calculations through the Köhler equation. 
+This fork extends `pyrcel` by adding a way to modify the surface tension of the aerosols and include it in calculations through the Köhler equation. The surface tension implementation and accompanying validation and optimization experiments described below were developed by [Yuti Purohit](https://github.com/yutipurohit).
 
 Seq, Seq_approx, and every function downstream of them (equilibration, the per-timestep growth ODE, and the post-solve activation diagnostics) currently assume the Kelvin term uses pure water's surface tension via sigma_w(T), with no way to override it per species. This PR adds an optional sigma/sigmas/surf_tension parameter threaded through the full chain, so a species can specify its own surface tension. Without this, pyrcel, and most parcel models currently released to the public, had no way to represent that physically.
 
